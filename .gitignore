@@ -50,3 +50,10 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Why do I bother with templates?
+.vs/
+.vscode/
+bin/
+obj/
+x64/
