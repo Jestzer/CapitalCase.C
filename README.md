@@ -2,9 +2,8 @@
 Make the first letter in a word capitalized and the rest lowercase. Works for whole sentences.
 
 # Usage
-This program only works from the command line. When using it from the command line, use the argument "-c" followed by the sentence you want to change in double quotes.
+This program only works from the command line. When using it from the command line, specify to execute the program, followed by the text you'd like to change.
 
-Example: .\CapitalCase.C.exe -c "hello world" will produce an output stating "Hello World".
-
-# Platforms
-Compiled releases are available on Windows and Linux. They were compiled on Windows 11 and Debian 11. I don't know what their hard cut-off is, though, since I only tested it on the ones I compiled with.
+Example usage:
+Your input: .\CapitalCase.C.exe CHANGE THIS TEXT
+Output: Change This Text
