@@ -11,10 +11,10 @@ void fixCapitalization(char *str) {
         if (str[i] == ' ') { // If the current character is a space, the next character is the start of a new word.
             newWord = 1;
         } else if (newWord) { // Capitalize the first letter of a word.
-            str[i] = toupper(str[i]);
+            str[i] = (char)toupper((unsigned char)str[i]);
             newWord = 0;
         } else { // Make sure the rest of the word is lowercase.
-            str[i] = tolower(str[i]);
+            str[i] = (char)tolower((unsigned char)str[i]);
         }
     }
 }
