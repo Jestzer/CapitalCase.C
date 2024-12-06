@@ -7,3 +7,7 @@ This program only works from the command line. When using it from the command li
 Example usage:
 Your input: .\CapitalCase.C.exe CHANGE THIS TEXT
 Output: Change This Text
+
+To-do:
+- Publish a release
+- Make accented letters work correctly
